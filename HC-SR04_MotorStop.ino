@@ -1,3 +1,5 @@
+//Used Arduino UNO
+
 int PUL = 2; // Define Pulse pin
 int DIR = 3; // Define Direction pin
 int trigPin = 7; // Trig pin for HC-SR04
