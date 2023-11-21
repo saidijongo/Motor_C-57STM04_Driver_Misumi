@@ -1,5 +1,5 @@
-int PUL=2; //define Pulse pin
-int DIR=3; //define Direction pin
+int PUL=2; 
+int DIR=3; 
 void setup() {
   pinMode (PUL, OUTPUT);
   pinMode (DIR, OUTPUT);
