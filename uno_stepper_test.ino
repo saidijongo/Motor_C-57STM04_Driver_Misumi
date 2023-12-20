@@ -3,7 +3,7 @@
 const int dirPin = 9; 
 const int pulPin = 8; 
 
-const int numStepsPerRevolution = 6400; //stepsperrev
+const int numStepsPerRevolution = 6400;
 
 void setup() {
   pinMode(dirPin, OUTPUT);
@@ -12,13 +12,11 @@ void setup() {
   Serial.println("Setup completed.");
 }
 
-
-
 void runStepper(int angle, int runTime) {
-  Serial.print("Running stepper motor. Angle: ");
-  Serial.print(angle);
-  Serial.print(", Run time: ");
-  Serial.println(runTime);
+  Serial.print("Running stepper motor, Angle: " + String(angle) + " Run Time: " + String(runTime) + "\r\n");
+  //Serial.print(angle);
+  //Serial.print(", Run time: ");
+  //Serial.println(runTime);
 
   int direction = (angle >= 0) ? HIGH : LOW;
   angle = abs(angle);
