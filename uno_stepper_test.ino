@@ -3,7 +3,7 @@
 const int dirPin = 9; 
 const int pulPin = 8; 
 
-const int numStepsPerRevolution = 6400;
+const int numStepsPerRevolution = 6400; //stepsperrev
 
 void setup() {
   pinMode(dirPin, OUTPUT);
