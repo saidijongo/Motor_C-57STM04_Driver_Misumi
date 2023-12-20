@@ -1,3 +1,4 @@
+//24V driver with PUL, DIR, ENA and ALM terminals
 int PUL=2; 
 int DIR=3; 
 void setup() {
