@@ -1,7 +1,7 @@
 #include <Arduino.h>
 
-const int dirPin = 9; 
-const int pulPin = 8; 
+const int dirPin = 13; 
+const int pulPin = 12; 
 
 const int numStepsPerRevolution = 6400;
 
@@ -244,6 +244,7 @@ void processCommand(String command) {
             Serial.print(", Param2: ");
             Serial.println(param2);
 
+
             if (motorType == "PUMPMOTOR_OPERATION"); //runPumps(param1, param2);
             else if (motorType == "SERVOMOTOR_OPERATION"); //runServo(param1, param2);
             else if (motorType == "STEPPERMOTOR_OPERATION") runStepper(param1, param2);
@@ -266,6 +267,7 @@ void processCommand(String command) {
 }
 
 
+
 void loop() {
   if (Serial.available() > 0) {
     String data = Serial.readStringUntil('\n');
@@ -276,3 +278,4 @@ void loop() {
     processCommand(data);
   }
 }
+//"(STEPPERMOTOR_OPERATION 1647eba3-a6b0-42a7-8a08-ffef8ab07065),(45,1000)"
