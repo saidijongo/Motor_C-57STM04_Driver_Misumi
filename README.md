@@ -3,6 +3,7 @@ C-57STM04 Misumi stepper motor has Black and Green connected to A+ and A-, and R
 
 https://www.globalspec.com/pfdetail/motors/stepper-motor-calculations
 
+![image](https://github.com/saidijongo/Motor_C-57STM04_Driver_Misumi/assets/31678025/4e77565d-e93b-4136-9a0a-ee931fa715b6)
 	
 【특징】
 ・해당 스테핑모터의 드라이버는 C-DR57A를 구매하여 사용 가능.
