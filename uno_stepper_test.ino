@@ -1,7 +1,7 @@
 #include <Arduino.h>
 
-const int dirPin = 13; 
-const int pulPin = 12; 
+const int dirPin = 12; 
+const int pulPin = 11; 
 
 const int numStepsPerRevolution = 6400;
 
