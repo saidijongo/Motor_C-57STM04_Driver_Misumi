@@ -1,8 +1,8 @@
 
 //24V driver with PUL, DIR, ENA and ALM terminals
 //Driver: 7& 8 ON
-int PUL=46; 
-int DIR=45; 
+int PUL=11; //46
+int DIR=12; //45
 const int numStepsPerRevolution = 5000; // Number of steps per revolution
 int input_angle = 300; // Desired angle of rotation
 //int steps = (input_angle * numStepsPerRevolution) / 360;
